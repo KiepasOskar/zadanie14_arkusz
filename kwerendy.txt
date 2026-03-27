@@ -1,0 +1,5 @@
+ZAPYTANIE 1: select marka, rocznik from samochody where kolor = "niebieski";
+ZAPYTANIE 2: SELECT COUNT(marka) FROM samochody WHERE (marka = 'Toyota' OR marka = 'Opel') AND stan = 'bardzo dobry';
+ZAPYTANIE 3: UPDATE samochody SET stan = 'dobry' WHERE rocznik < 2004;
+ZAPYTANIE 4: CREATE user 'jan'@'localhost' identified by 'janKowalski1@';
+ZAPYTANIE 5: grant select, insert, update on samochody.* to 'jan'@'localhost';
